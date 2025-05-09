@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="Algebra 2 Class Resources and Information">
+  <meta name="keywords" content="Algebra 2, high school math, math resources, assignments">
+  <meta name="author" content="Your Name">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Algebra 2 - Home</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="banner">
+      <img src="images/CHS.png" alt="Algebra 2 Logo" class="logo">
+      <h1>Mrs. Akil's Algebra 2 Classroom</h1>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="schedule.html">Schedule</a></li>
+        <li><a href="policies.html">Policies</a></li>
+        <li><a href="resources.html">Resources</a></li>
+        <li><a href="feedback.html" class="active">Feedback</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <h2 class="section-title">Submit a Suggestion or Concern</h2>
+      <p>If you’re a student or parent who has feedback, Feedback, or concerns related to this class, please use the form below. I review these submissions regularly.</p>
+
+      <form action="https://fabform.io/f/9bWx_Sr" method="POST" class="form-box">
+        <label for="name"><strong>Your Name:</strong></label><br>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <label for="email"><strong>Your Email:</strong></label><br>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="role"><strong>I am a:</strong></label><br>
+        <select id="role" name="role" required>
+          <option value="">--Please select--</option>
+          <option value="student">Student</option>
+          <option value="parent">Parent/Guardian</option>
+          <option value="other">Other</option>
+        </select><br><br>
+
+        <label for="topic"><strong>What is this about?</strong></label><br>
+        <select id="topic" name="topic" required>
+          <option value="">--Select a topic--</option>
+          <option value="classwork">Classwork or assignments</option>
+          <option value="grades">Grades or progress</option>
+          <option value="behavior">Classroom environment</option>
+          <option value="concern">Concern or issue</option>
+          <option value="other">Other</option>
+        </select><br><br>
+
+        <label for="message"><strong>Your Message:</strong></label><br>
+        <textarea id="message" name="message" rows="6" required></textarea><br><br>
+        <input type="submit" value="Submit">
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>Contact: <a href="mailto:aakil@csdmi.org">aakil@csdmi.org</a></p>
+  </footer>
+</body>
+</html>
